@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(git add:*)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Blessed Portfolio\n\n- Full-stack developer portfolio with orange/black theme\n- Removed contact section\n- Updated branding to Blessed\n- Added GitHub, Discord, and Telegram social links\n- Updated skills section for full-stack capabilities\n- Configured for Vercel deployment\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Blessed Portfolio\n\n- Full-stack developer portfolio with orange/black theme\n- Removed contact section\n- Updated branding to Blessed\n- Added GitHub, Discord, and Telegram social links\n- Updated skills section for full-stack capabilities\n- Configured for Vercel deployment\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
